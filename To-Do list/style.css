@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+}
+
+.container {
+  width: 420px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 68%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Add Task Button */
+.container > button {
+  background: #2563eb;
+  color: white;
+}
+
+/* Counters */
+.counter {
+  margin: 25px 0;
+  padding: 10px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.counter p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Task List */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Completed task style */
+.completed {
+  text-decoration: line-through;
+  color: #64748b;
+}
+
+/* Complete Button */
+li button:first-child {
+  background: #16a34a;
+  color: white;
+  margin-right: 6px;
+}
+
+/* Delete Button */
+li button:last-child {
+  background: #dc2626;
+  color: white;
+}
